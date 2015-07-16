@@ -8,10 +8,10 @@ def imprimir(mensaje):
     print u""
 
 n = raw_input(u"Número de veces")
-mensaje = raw_input(u"MENSAJE")
+mensajes = raw_input(u"MENSAJE")
 # TRANSFORMO A ENTERI EL NUMERO DE REPETICIONES
 n = int(n)
 
 for i in range(n):
-    print mensaje
+    print mensajes
 
